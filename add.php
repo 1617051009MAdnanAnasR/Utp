@@ -38,7 +38,7 @@
 				<p style="text-align:justify;">Tahukah Kamu?<br>Bermain video game yang berkaitan dengan taktik dan hafalan bisa membantu seseorang berpikir lebih fleksibel.</div>
 			<div class="widget">
 				<h2>Nama Kelompok</h2>
-                            <p>1. M Adnan Anas<br>2.Yayan Budi W<br>3.Cindy Prakasa P</p>
+                                <p>1. M Adnan Anas<br>2. Yayan Budi W<br>3. Cindy Prakasa P</p>
 			</div>
 			<div align="right">
 				<a href="logout.php"><button class="tombol">Logout</button></a>
@@ -51,7 +51,6 @@
 		<div class="blog">
 			<div class="conteudo">
 				<div class="post-info"></div>
-				
 				<style>
 					table{
 						width: 410px;
@@ -69,7 +68,7 @@
 					<br/><br/>
 					<center>
 					<form action="add.php" method="post" name="form1">
-						<table >
+						<table>
 							<th colspan="4">Tambah Data Game</th>
 							<tr> 
 								<td>Nama</td>
@@ -101,7 +100,6 @@
 								<td></td>
 								<td style="padding: 5px" ><input type="submit" name="Submit" value="Add"></td>
 							</tr>
-						
 						</table>
 					</form>
 	
@@ -129,5 +127,4 @@
 		<!-- akhir bagian konten Blog -->
 	</div>
 </body>
-
 </html>
