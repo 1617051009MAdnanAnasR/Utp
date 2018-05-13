@@ -54,14 +54,14 @@ while($user_data = mysqli_fetch_array($result))
 	
 	<div class="wrap">
 		<!-- bagian menu		 -->
-		<nav>
+	<nav>
     	<ul>
         	<li><a href="index.php">Home</a></li>
             <li>
             	<a href="#">Games</a>
             	<ul>
                 	<li><a href="add.php">Tambah Wishlist</a></li>
-                    <li><a href="indexcrud.php">Wishlist Game</a></li>
+                    	<li><a href="indexcrud.php">Wishlist Game</a></li>
                 </ul>
             </li>
             <li><a href="populer.html">Populer</a></li>
@@ -78,7 +78,7 @@ while($user_data = mysqli_fetch_array($result))
 				<p style="text-align:justify;">Tahukah Kamu?<br>Bermain video game yang berkaitan dengan taktik dan hafalan bisa membantu seseorang berpikir lebih fleksibel.</div>
 			<div class="widget">
 				<h2>Nama Kelompok</h2>
-                            <p>1. M Adnan Anas<br>2.Yayan Budi W<br>3.Cindy Prakasa P</p>
+                            	<p>1. M Adnan Anas<br>2.Yayan Budi W<br>3.Cindy Prakasa P</p>
 			</div>
 			<div align="right">
 				<a href="logout.php"><button class="tombol">Logout</button></a>
@@ -90,8 +90,10 @@ while($user_data = mysqli_fetch_array($result))
 		<!-- bagian konten Blog -->
 		<div class="blog">
 			<div class="conteudo">
-				<div class="post-info"></div>
-				<style>
+				<div class="post-info">
+		</div>
+
+<style>
 table{
 	width: 410px;
 	margin-top: 20px;
