@@ -114,10 +114,10 @@
 						// include database connection file
 						include_once("config.php");
 								
-						// Insert user data into table
+						// masukan data game ke tabel
 						$result = mysqli_query($mysqli, "INSERT INTO games(name,genre,platform,released,developer) VALUES('$name','$genre','$platform','$released','$developer')");
 						
-						// Show message when user added
+						// munculkan pesan sesudah add
 						echo "Game berhasil ditambahkan";
 					}
 					?>
