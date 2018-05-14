@@ -1,8 +1,7 @@
 <?php
-// include database connection file
 include_once("config.php");
  
-// Check if form is submitted for user update, then redirect to homepage after update
+// cek jika form dah tersubmit untuk daftar game, kemudian redirect ke daftar game sesudah update
 if(isset($_POST['update']))
 {	
 	$id = $_POST['id'];
@@ -13,19 +12,18 @@ if(isset($_POST['update']))
 	$released=$_POST['released'];
 	$developer=$_POST['developer'];
 		
-	// update user data
+	// update game
 	$result = mysqli_query($mysqli, "UPDATE games SET name='$name',genre='$genre',platform='$platform',released='$released',developer='$developer' WHERE id=$id");
 	
-	// Redirect to homepage to display updated user in list
 	header("Location: indexcrud.php");
 }
 ?>
 <?php
-// Display selected user data based on id
+// Display selected data based on id
 // Getting id from url
 $id = $_GET['id'];
  
-// Fetech user data based on id
+// Fetech data based on id
 $result = mysqli_query($mysqli, "SELECT * FROM games WHERE id=$id");
  
 while($user_data = mysqli_fetch_array($result))
