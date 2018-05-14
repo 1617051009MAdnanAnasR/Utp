@@ -2,7 +2,7 @@
 // Create database connection using config file
 include_once("config.php");
  
-// Fetch all users data from database
+// mengambil semua data game di database
 $result = mysqli_query($mysqli, "SELECT * FROM games ORDER BY id DESC");
 ?>
  
